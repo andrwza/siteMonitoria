@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agendamento de Monitoria</title>
+  <meta name="description" content="Tabela de horários (segunda a sexta, 13h às 18h) e link para formulário de agendamento de monitoria." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header" role="banner">
+      <div class="brand" aria-label="Instituto Federal">
+        <div class="logo">
+          <img src="img/logoif.png" alt="Logo IF">
+        </div>
+        <div>
+          <h1>Agendamento de Monitoria</h1>
+          <p>Instituto Federal, Campus Itapetininga • Tabela de horários</p>
+        </div>
+      </div>
+      <div class="contact">
+      <strong>Contato:</strong> <a href="mailto:andreza.damasceno@aluno.ifsp.edu.br">andreza.damasceno@aluno.ifsp.edu.br</a>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="titulo-horarios">
+      <div class="card-header">
+        <h2 id="titulo-horarios">Horários disponíveis</h2>
+        <span class="badge">Segunda a Sexta • 13h – 18h</span>
+      </div>
+
+      <div class="notice">
+        <p><strong>Exceções:</strong> Em alguns dias pode não haver monitoria programada, mas ainda assim posso atender se você preencher o formulário de agendamento com pelo menos 1 dia de antecedência.  
+        <br>  
+        <p>Ás <strong>terças-feiras</strong> não há atendimentos em nenhum caso.</p>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Tabela de horários" tabindex="0">
+        <table class="schedule" aria-describedby="legenda">
+          <thead>
+            <tr>
+              <th scope="col">Horário</th>
+              <th scope="col">Segunda</th>
+              <th scope="col">Terça</th>
+              <th scope="col">Quarta</th>
+              <th scope="col">Quinta</th>
+              <th scope="col">Sexta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">13:00</th>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="pre-warning"></td>
+            </tr>
+            <tr>
+              <th scope="row">14:00</th>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="pre-warning"></td>
+            </tr>
+            <tr>
+              <th scope="row">15:00</th>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="pre-warning"></td>
+            </tr>
+            <tr>
+              <th scope="row">16:00</th>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="pre-warning"></td>
+            </tr>
+            <tr>
+              <th scope="row">17:00</th>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="pre-warning"></td>
+            </tr>
+            <tr>
+              <th scope="row">18:00</th>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="available"></td>
+              <td class="busy"></td>
+              <td class="pre-warning"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="form-cta">
+        <div class="legend" id="legenda">
+          <span><i class="dot available"></i> Disponível</span>
+          <span><i class="dot busy"></i> Não atendo</span>
+          <span><i class="dot pre-warning"></i> Agendar 1 dia antes</span>
+        </div>
+        <a class="btn" href="https://forms.gle/BFVrnQxbzLWGwGgz8" target="_blank" rel="noopener">Abrir formulário de agendamento</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Monitoria para a disciplina de Lógica e Algoritmos • Página informativa de horários e agendamento.</p>
+    </footer>
+  </div>
+</body>
+</html>
