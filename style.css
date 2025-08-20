@@ -94,7 +94,7 @@ header.site-header{
 }
 
 .contact{ 
-    margin-top: 9px
+    margin-top: 9px;
     margin-left: 9px; 
     text-align: left; 
 }
@@ -272,4 +272,5 @@ footer{
   }
 
 }
+
 
