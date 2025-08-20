@@ -94,8 +94,8 @@ header.site-header{
 }
 
 .contact{ 
-    margin-left:auto; 
-    text-align:right; 
+    margin-left: 9px; 
+    text-align: left; 
 }
 
 .contact a{ 
@@ -269,4 +269,5 @@ footer{
   .btn{ 
     display:none; 
   }
+
 }
